@@ -1,5 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react';
 import axios from 'axios';
+import Example from './example/example.js';
+import AddLink from './components/addlink.js';
 
 function App() {
     const [data, setData] = useState([]);
@@ -26,6 +28,7 @@ function App() {
                 value={query}
                 onChange={event => setQuery(event.target.value)}
             />
+            <Example/>
             <ul>
                 {data.map(item => (
                     <li key={item.url}>
@@ -33,6 +36,7 @@ function App() {
                     </li>
                 ))}
             </ul>
+            <AddLink/>
         </Fragment>
     );
 }

@@ -1,0 +1,37 @@
+.box {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,1);
+}
+
+.box1 {background: aqua}
+.box2 {background: cornflowerblue}
+.box3 {background: darkslateblue}
+.box4 {background: greenyellow}
+.box5 {background: yellow}
+.box6 {background: forestgreen}
+.box7 { background: darkviolet}
+.box8 { background: moccasin}
+.box9 {background: hotpink}
+.box10 {background: black}
+
+.container {
+    display: flex;
+    border: 10px solid indigo;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.box {
+    border-radius: 25px;
+    /*width:33.33333%;*/
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+ .box3 {
+     flex-grow: 5;
+ }
