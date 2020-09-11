@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36d18a77-66e6-4fe3-85a1-d41990df0fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Turbo/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/addlink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/navflex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/Turbo/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/Turbo/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/Turbo/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/Turbo/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,11 +46,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.intro.html">
+  <component name="RunManager" selected="JavaScript Debug.navflex.html">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="intro.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/reactfastapi/public/intro.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="navflex.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/reactfastapi/public/navflex.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -70,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.navflex.html" />
         <item itemvalue="JavaScript Debug.intro.html" />
       </list>
     </recent_temporary>
@@ -85,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598889525979</updated>
       <workItem from="1598889527274" duration="10083000" />
-      <workItem from="1599600599620" duration="8698000" />
+      <workItem from="1599600599620" duration="13248000" />
     </task>
     <servers />
   </component>
