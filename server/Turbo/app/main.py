@@ -5,6 +5,7 @@ import uvicorn
 from pymongo import MongoClient
 from typing import Dict
 from bson.objectid import ObjectId
+from app.routers import users
 
 app = FastAPI()
 client = MongoClient('mongodb://localhost:27017/')
@@ -25,6 +26,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.include_router(users.router)
 
 @app.get("/")
 def read_root():
